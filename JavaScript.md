@@ -3532,13 +3532,13 @@ function getName() {
 }
 
 //请写出以下输出结果：
-Foo.getName(); // 2
-getName(); // 4
-Foo().getName(); // 1
-getName(); // 1
-new Foo.getName(); // 2
-new Foo().getName(); // 3
-new new Foo().getName(); // 3
+Foo.getName();           // 2
+getName();              // 4
+Foo().getName();           // 1
+getName();             // 1
+new Foo.getName();   // 2
+new Foo().getName();   // 3
+new new Foo().getName();  // 3
 ```
 
 详细资料可以参考：
